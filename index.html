@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pocket Toolkit: Privacy Policy</title>
+<!--
+  DRAFT written from the app's real source code and merged manifest (version 1.0.0). It is NOT legal advice.
+  Before publishing: (1) replace every "[FILL IN ...]", (2) read it once fully, (3) check it against the final app.
+  What each statement is based on is listed in docs/privacy-sources.md.
+-->
+<style>
+  :root { --bg:#f6f8ff; --fg:#1a1b20; --muted:#4a4d57; --card:#ffffff; --line:#d6daea; --accent:#3f5aa6; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#111318; --fg:#e3e2e9; --muted:#b4b6c2; --card:#1b1d24; --line:#32353f; --accent:#b2c5ff; }
+  }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:24px 18px 64px; }
+  h1 { font-size:1.8rem; margin:0 0 4px; }
+  h2 { font-size:1.25rem; margin:2rem 0 .4rem; color:var(--accent); }
+  p, li { color:var(--fg); }
+  .muted { color:var(--muted); }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 18px; margin:16px 0; }
+  table { border-collapse:collapse; width:100%; font-size:.95rem; }
+  th, td { border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top; }
+  th { background:var(--card); }
+  a { color:var(--accent); }
+  .fill { background:#fff3b0; color:#222; padding:0 4px; border-radius:4px; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Pocket Toolkit: Privacy Policy</h1>
+<p class="muted">Effective date: 6 October 2026<br>
+Last updated: 6 October 2026<br>
+App: Pocket Toolkit (package name <code>com.mobin.pockettoolkit</code>), version 1.0.0 and newer<br>
+Developer: Mobinul Islam (an individual developer)</p>
+
+<div class="card">
+<strong>In short</strong>
+<ul>
+  <li>Your pictures, PDFs and text are processed <strong>on your phone</strong>. The app does not upload them anywhere, and I never receive them.</li>
+  <li>There are <strong>no accounts</strong> and <strong>no servers</strong> of mine.</li>
+  <li>The free version shows <strong>ads</strong> (Google AdMob) on the Home and category screens, never inside a tool. Google's ad software may use your phone's <strong>advertising ID</strong> and other data described below.</li>
+  <li>Where the law requires it, the app first asks for your <strong>consent</strong> about ads (Google's consent form).</li>
+  <li>An optional one-time purchase, <strong>Pro</strong>, removes the ads and the monthly limit on the image and PDF tools. Google Play handles the payment.</li>
+</ul>
+</div>
+
+<h2>1. Who is responsible</h2>
+<p>Mobinul Islam is the developer of Pocket Toolkit and the person responsible for this policy.
+Contact: <a href="mailto:shlordsh@gmail.com">shlordsh@gmail.com</a>.</p>
+
+<h2>2. What the app does with your files and text (on your phone only)</h2>
+<p>Pocket Toolkit is a collection of tools: calculators, unit converters, a QR code maker and scanner, image tools (compress, resize, convert, crop, passport / ID photo sheet), PDF tools (images to PDF, Word to PDF, merge, split, extract pages, and signing a PDF with a picture of your signature), document scanners (paper pages to PDF, and both sides of an ID card on one page), a flashlight, a device information screen, and text tools (counter, cleaner).</p>
+<ul>
+  <li><strong>Pictures and PDFs.</strong> You choose them with Android's own photo picker or file picker. The app reads only the files you choose, works on them in your phone's memory, and does not upload them. The app has no permission to browse your storage.</li>
+  <li><strong>Text and documents.</strong> Text you type, paste or load from a plain-text, Word (.docx) or PDF file stays on your phone. The files you attach are read only, never changed. Word files are read and converted on your phone with the phone's own text drawing, and nothing is sent anywhere.</li>
+  <li><strong>Results.</strong> A result is saved only in the place you pick in Android's "save as" screen, or sent to the app you pick in the share sheet. For sharing, the app makes a temporary copy in its private cache folder, which Android or the app removes later.</li>
+  <li><strong>Device information.</strong> This screen reads general facts such as manufacturer, model, Android version, memory, storage and screen size, and shows them only on your screen. It does not read your IMEI, serial number, Android ID or MAC address, and nothing from it is sent anywhere by the app.</li>
+  <li><strong>Flashlight.</strong> It switches your phone's flash on and off. It does not take pictures, and the app does not ask for the camera permission.</li>
+  <li><strong>QR generator.</strong> The QR code is made on your phone from what you type.</li>
+  <li><strong>Sign PDF.</strong> You draw your signature with your finger, or pick a picture of it with Android's photo picker. The app puts that picture on the pages of the PDF you choose and saves a new PDF where you tell it to. This works on your phone only. It adds a <em>picture</em> of a signature: it is not a certified digital signature. Your signature is kept only for the time you use the tool, unless you switch on &quot;Remember my signature on this phone&quot; (see section 7).</li>
+</ul>
+
+<h2>3. QR and barcode scanner (Google ML Kit)</h2>
+<p>The scanner uses Google's code scanner, which is part of Google Play services (Google ML Kit). Google Play services shows the camera view and finds the code; the app then receives only the text of the code. Scanned results are shown on your screen and are not saved. The app never opens a link by itself; a link, phone number or e-mail from a code opens in another app only when you tap the button for it.</p>
+<p>According to Google's <a href="https://developers.google.com/ml-kit/android-data-disclosure">ML Kit data disclosure</a>, ML Kit sends some diagnostic and usage information to Google when you use it: device information (such as manufacturer, model and Android version), the app's package name and version, per-installation identifiers that are not intended to identify you or your phone, performance figures, and event and error information. Google says this is used for diagnostics and usage analytics, is encrypted in transit and is not passed on to third parties. The app does not use ML Kit's optional auto-zoom feature, so the extra data that feature would collect is not collected.</p>
+
+<h2>4. Document scanner (Google ML Kit)</h2>
+<p>The Paper Scanner and the ID Card Scanner use Google's document scanner, which is part of Google Play services (Google ML Kit), the same kind of software as the code scanner above. Google Play services shows the camera view and finds the edges of the page or card; the app then receives the scanned pages as pictures (and, for the Paper Scanner, as a PDF). A finished scan is kept only as a temporary copy in the app's private cache folder until you save it where you choose or share it, like the other tools' results (see section 2). The app does not ask for the camera permission: the camera is used inside Google Play services' own screen.</p>
+<p>According to Google's <a href="https://developers.google.com/ml-kit/android-data-disclosure">ML Kit data disclosure</a>, ML Kit sends some diagnostic and usage information to Google when you use it: device information (such as manufacturer, model and Android version), the app's package name and version, per-installation identifiers that are not intended to identify you or your phone, performance figures, and event and error information. Google says this is used for diagnostics and usage analytics, is encrypted in transit and is not passed on to third parties.</p>
+
+<h2>5. Ads (Google AdMob) and your consent</h2>
+<p>The free version shows a banner ad at the bottom of the Home screen and the category screens. No ads are shown inside the tools, on the Settings, About or Pro screens, or to users who bought Pro. For Pro users the ads software is not even started.</p>
+<p>The free version gives a number of free uses of the image and PDF tools each month. If you have used them up, the card that tells you so offers a choice: you may watch a rewarded ad (a short video ad) to earn one more use, at most five a day. This happens only when you tap that button; it never happens by itself, and nothing is shown inside a tool. When Google's ads software confirms that you watched the ad, the app adds the extra use to a counter kept only on your phone (see section 7). The same Google Mobile Ads SDK described in this section shows the rewarded ad and uses the same data; the app itself collects no new data for this.</p>
+<p>Ads are provided by Google AdMob through the Google Mobile Ads SDK. According to Google's <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">data disclosure for the Google Mobile Ads SDK</a>, the SDK collects and shares with Google, in order to show and measure ads, prevent fraud and for analytics:</p>
+<ul>
+  <li>your <strong>IP address</strong> (it may be used to estimate your general location),</li>
+  <li><strong>advertising-related identifiers</strong>: the Android advertising ID and the app set ID,</li>
+  <li><strong>interactions with ads</strong> (for example app launches, taps and video views), and</li>
+  <li><strong>diagnostic information</strong> about the app's performance (for example launch time, hang rate, energy use).</li>
+</ul>
+<p>Google says this data is encrypted in transit. The app itself does not ask for your location, and the app does not store or read these values; Google's software does. Google's own policies describe what it does with the data: <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a>.</p>
+<p><strong>Consent.</strong> Before any ad is requested, the app runs Google's consent tool (User Messaging Platform). Where the law requires it (for example in the European Economic Area, the United Kingdom and Switzerland), you see a form and the app waits for your choice. You can change your choice later in <em>Settings &gt; Privacy options</em> (this row appears only where the law requires it). Your choice is kept by Google's consent software on your phone.</p>
+<p><strong>Your ad controls on Android.</strong> You can reset or delete your advertising ID and opt out of ads personalisation in your phone's settings (usually <em>Settings &gt; Privacy &gt; Ads</em>; the exact place depends on your phone).</p>
+<p>The app tells Google that it is not directed to children and that its users are not under the age of consent.</p>
+
+<h2>6. The Pro purchase (Google Play Billing)</h2>
+<p>Pro is a one-time purchase that removes ads and the monthly limit on the image and PDF tools. The purchase and payment are handled by Google Play. I do not receive your name, card or other payment details. The app asks Google Play on your phone whether you own Pro, and keeps a simple yes/no answer on your phone so the ads stay off and the limit stays removed while you are offline. The app has no server and does not send your purchase information anywhere.</p>
+
+<h2>7. What is stored on your phone</h2>
+<ul>
+  <li>Your choices and history inside the app: the theme (light, dark or system), your favourite tools and your recently used tools.</li>
+  <li>Whether you own Pro (yes/no).</li>
+  <li>For the free monthly limit on image and PDF tools: a small counter (how many free uses are left, and which month it belongs to). It is kept only on your phone, is not backed up, is not sent anywhere and is not linked to you. Clearing the app's storage or uninstalling the app removes it.</li>
+  <li>Only if you switch on &quot;Remember my signature on this phone&quot; in the Sign PDF tool (it is off by default): your signature as one small private picture file. It is kept in the app's private storage on this phone, is not backed up, not shared and not sent anywhere. You can delete it at any time with &quot;Delete saved signature&quot; in the tool or in Settings; switching the option off also deletes it.</li>
+  <li>Temporary share copies in the private cache folder (see section 2).</li>
+  <li>Google's software stores its own data on your phone (for example your consent choice and ad settings).</li>
+</ul>
+<p>If you use Android's backup, only the file with the theme, favourites and recent tools may be backed up. The Pro answer, the free-use counter, the ad consent choice and the saved signature are deliberately excluded. Uninstalling the app, or clearing its storage in Android settings, removes what the app stored on your phone.</p>
+
+<h2>8. What I do not collect</h2>
+<p>I do not collect your name, e-mail address, phone number, address, location, contacts, calendar, messages, photos, files, signatures (unless you choose to keep one on your own phone, see section 7), voice, camera pictures, health or financial information, or any account details. I do not use analytics or crash-reporting tools of my own, and I do not sell data. The only data that leaves your phone is what Google's own software (ads, ML Kit scanner, Google Play) sends, as described above.</p>
+<p>If you write to me by e-mail, I receive your address and what you write, and I use it only to answer you. The "Contact" button opens your e-mail app only when you tap it.</p>
+
+<h2>9. Permissions the app declares</h2>
+<table>
+  <tr><th>Permission</th><th>Why</th></tr>
+  <tr><td>INTERNET, ACCESS_NETWORK_STATE</td><td>Needed by Google's ads, consent, scanner and Play Billing software. The app's own code makes no network requests.</td></tr>
+  <tr><td>com.android.vending.BILLING</td><td>The Pro purchase through Google Play.</td></tr>
+  <tr><td>AD_ID, ACCESS_ADSERVICES_AD_ID, ACCESS_ADSERVICES_ATTRIBUTION, ACCESS_ADSERVICES_TOPICS</td><td>Lets Google's ads software read the advertising ID and use Android's ad services.</td></tr>
+  <tr><td>WAKE_LOCK, FOREGROUND_SERVICE</td><td>Added by Google's software (background work library). The app's own code does not use them.</td></tr>
+</table>
+<p>The app does <strong>not</strong> ask for permission to use the camera, microphone, location, contacts, calendar, phone, SMS or your photo and file storage.</p>
+
+<h2>10. Children</h2>
+<p>Pocket Toolkit is not directed to children, and I do not knowingly collect personal information from children. If you are a parent and believe your child gave me personal information, write to me and I will delete it.</p>
+
+<h2>11. Sharing</h2>
+<p>I do not share, sell or rent personal information. Google receives the data described in sections 3 and 4 because Google's software runs inside the app. You may also choose to share a result with another app through the share sheet, or open a link from a scanned code in your browser; that is your action, and the other app's privacy policy then applies.</p>
+
+<h2>12. Security</h2>
+<p>Because your files and text stay on your phone, they are protected by your phone's own security. Google says that the data its ads and ML Kit software send is encrypted in transit (HTTPS/TLS). No method is perfectly secure.</p>
+
+<h2>13. Your rights and choices</h2>
+<p>Depending on where you live (for example the EEA, the United Kingdom or California), you may have rights to access, correct, delete or restrict the use of your personal information, to object to its use, to withdraw consent, and to complain to a data-protection authority. I hold no personal data about you except an e-mail you may send me, so for that I can delete it on request. For data that Google collects through its software, you can use Settings &gt; Privacy options in the app, your phone's ad settings, and Google's tools (<a href="https://myadcenter.google.com/">My Ad Center</a>), or contact Google. To ask me anything about this policy, write to <a href="mailto:shlordsh@gmail.com">shlordsh@gmail.com</a>.</p>
+
+<h2>14. Changes to this policy</h2>
+<p>If the app changes in a way that affects your privacy (for example a new tool that uses a new permission), I will update this page and its effective date, and the app will link to the new version.</p>
+
+<h2>15. Contact</h2>
+<p>Mobinul Islam<br>
+E-mail: <a href="mailto:shlordsh@gmail.com">shlordsh@gmail.com</a></p>
+
+</main>
+</body>
+</html>
